@@ -30,7 +30,7 @@ Docker • CI/CD pipelines • Infrastructure as Code • Cloud platforms (AWS/A
 
 ## Repository Structure
 
-### 📓 [devops-lab](#)
+### 📓 [devops-lab](https://github.com/AhsanRahat12/devops-lab/tree/main?tab=readme-ov-file)
 My learning journal - documenting problems solved, experiments, and technical notes as I build DevOps skills. Raw troubleshooting and real-world solutions.
 
 ### 🚀 Projects
