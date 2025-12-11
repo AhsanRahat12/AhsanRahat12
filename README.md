@@ -35,9 +35,9 @@ My learning journal - documenting problems solved, experiments, and technical no
 
 ### 🚀 Projects
 - **[Arch Linux Installation Guide](https://github.com/AhsanRahat12/arch-linux-setup)** - Complete Arch Linux setup with LVM encryption and Hyprland desktop environment
-- **[Containerized Python Apps](**[https://github.com/AhsanRahat12/Dockerized-Python-Projects)**)** - Python projects enhanced with Docker containerization for easy setup and cross-platform compatibility
+- **[Dockerized Python Apps](https://github.com/AhsanRahat12/Dockerized-Python-Projects)** - Python projects enhanced with Docker containerization for easy setup and cross-platform compatibility
 
-*More projects coming soon as I build out homelab infrastructure, Docker applications, and automation scripts.*
+*More projects coming soon....*
 
 ## Get In Touch
 
