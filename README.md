@@ -33,6 +33,9 @@ Docker • CI/CD pipelines • Infrastructure as Code • Cloud platforms (AWS/A
 ### 📓 [devops-lab](https://github.com/AhsanRahat12/devops-lab/tree/main?tab=readme-ov-file)
 My learning journal - documenting problems solved, experiments, and technical notes as I build DevOps skills. Raw troubleshooting and real-world solutions.
 
+### 📝 [social-media-archive](https://github.com/YOUR-USERNAME/social-media-archive)
+Technical content archive - all my LinkedIn posts and Twitter/X threads documenting my DevOps learning journey. Consistent knowledge-sharing across platforms covering Docker, Kubernetes, Linux, career development and more.
+
 ### 🚀 Projects
 - **[Arch Linux Installation Guide](https://github.com/AhsanRahat12/arch-linux-setup)** - Complete Arch Linux setup with LVM encryption and Hyprland desktop environment
 - **[Dockerized Python Apps](https://github.com/AhsanRahat12/Dockerized-Python-Projects)** - Python projects enhanced with Docker containerization for easy setup and cross-platform compatibility
@@ -43,6 +46,7 @@ My learning journal - documenting problems solved, experiments, and technical no
 
 - GitHub: You're already here!
 - [LinkedIn](https://www.linkedin.com/in/rahatahsan/)
+- [Twitter/X](https://x.com/RahatAhsan20)
 
 
 ---
