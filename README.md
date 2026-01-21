@@ -33,7 +33,7 @@ Docker • CI/CD pipelines • Infrastructure as Code • Cloud platforms (AWS/A
 ### 📓 [devops-lab](https://github.com/AhsanRahat12/devops-lab/tree/main?tab=readme-ov-file)
 My learning journal - documenting problems solved, experiments, and technical notes as I build DevOps skills. Raw troubleshooting and real-world solutions.
 
-### 📝 [social-media-archive](https://github.com/YOUR-USERNAME/social-media-archive)
+### 📝 [social-media-archive](https://github.com/AhsanRahat12/social-media-archive)
 Technical content archive - all my LinkedIn posts and Twitter/X threads documenting my DevOps learning journey. Consistent knowledge-sharing across platforms covering Docker, Kubernetes, Linux, career development and more.
 
 ### 🚀 Projects
