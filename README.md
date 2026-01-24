@@ -7,13 +7,12 @@ Aspiring DevOps Engineer | Transitioning from Data Analytics | Kubernetes & MLOp
 I'm transitioning into DevOps engineering with a focus on containerization, infrastructure automation, and cloud technologies. Coming from a data analytics background, I'm working toward Kubernetes expertise and MLOps specialization.
 
 **Location:** Manitoba, Canada  
-**Current Focus:** Docker → Kubernetes → Cloud Infrastructure
+**Current Focus:** Kubernetes → Cloud Infrastructure
 
 ## What I'm Working On
 
-- 🐳 Mastering Docker containerization and optimization
 - 🐍 Building Python automation projects
-- 🏠 Running a homelab with Raspberry Pi cluster and media server
+- 🏠 Running a homelab with Raspberry Pi cluster
 - 📚 Learning Kubernetes orchestration
 - 🔧 Daily-driving Arch Linux with Hyprland
 
@@ -26,7 +25,7 @@ Docker • Kubernetes • Linux (Arch) • Git • Nginx
 Python • Bash
 
 **Currently Learning:**  
-Docker • CI/CD pipelines • Infrastructure as Code • Cloud platforms (AWS/Azure)
+Kubernetes • CI/CD pipelines • Infrastructure as Code • Cloud platforms (AWS/Azure)
 
 ## Repository Structure
 
