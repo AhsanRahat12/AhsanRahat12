@@ -37,7 +37,7 @@ Technical content archive - all my LinkedIn posts and Twitter/X threads document
 
 ### 🚀 Projects
 - **[Arch Linux Installation Guide](https://github.com/AhsanRahat12/arch-linux-setup)** - Complete Arch Linux setup with LVM encryption and Hyprland desktop environment
-- **[Dockerized Python Apps](https://github.com/AhsanRahat12/Dockerized-Python-Projects)** - Python projects enhanced with Docker containerization for easy setup and cross-platform compatibility
+- **[Dockerized Apps](https://github.com/AhsanRahat12/Dockerized-Python-Projects)** - Python projects enhanced with Docker containerization for easy setup and cross-platform compatibility
 
 *More projects coming soon....*
 
