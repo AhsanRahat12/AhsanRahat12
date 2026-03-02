@@ -1,4 +1,4 @@
-# Rahat Ahsan
+# Hey, I'm Rahat 👋
 
 **DevOps Engineer in Training** | Data Analytics Background | Kubernetes & MLOps Enthusiast
 
@@ -8,7 +8,7 @@
 
 ## About Me
 
-I'm transitioning into DevOps from a data analytics background, with a focus on Linux systems, containerization, and cloud infrastructure. I'm currently building hands-on experience through the **Kubecraft internship program**.
+I'm transitioning into DevOps from a data analytics background, with a focus on containerization and cloud infrastructure. I'm currently building hands-on experience through the **Kubecraft internship program**.
 
 How systems work under the hood, how they're built, how they scale, how they communicate, and why they break — that curiosity made me want to pursue infrastructure professionally. Kubernetes and cloud technology is where all of that comes together for me.
 
@@ -19,7 +19,7 @@ How systems work under the hood, how they're built, how they scale, how they com
 - 🏠 **Homelab** — designing and managing self-hosted infrastructure on a Raspberry Pi 5 cluster and QNAP NAS
 - ⚙️ **Kubernetes** — building proficiency in core concepts including scheduling, networking, storage, and writing production-style manifests
 - 📦 **Containerization** — packaging and deploying applications with Docker for consistent, reproducible environments
-- 🖥️ **Linux systems** — daily-driving Arch Linux with a fully customized Hyprland environment, maintaining portable dotfiles and a reproducible dev workflow
+- 🖥️ **Linux systems** — maintaining a custom Arch Linux environment with Hyprland, portable dotfiles, and a reproducible dev workflow
 
 ---
 
