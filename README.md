@@ -2,7 +2,7 @@
 
 **DevOps Engineer in Training** | Data Analytics Background | Kubernetes & MLOps Enthusiast
 
-📍 Manitoba, Canada &nbsp;•&nbsp; [LinkedIn](https://www.linkedin.com/in/rahatahsan/) &nbsp;•&nbsp; [Twitter/X](https://x.com/RahatAhsan20)
+📍 Manitoba, Canada &nbsp;•&nbsp; [LinkedIn](https://www.linkedin.com/in/rahatahsan/) &nbsp;•&nbsp; [Twitter/X](https://x.com/RahatAhsan20) &nbsp;•&nbsp; [Medium](https://medium.com/@s.rahatahsan)
 
 ---
 
