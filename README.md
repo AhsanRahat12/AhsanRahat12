@@ -1,5 +1,4 @@
 # Hey, I'm Rahat 👋
-
 **DevOps Engineer in Training** | Data Analytics Background | Kubernetes & MLOps Enthusiast
 
 📍 Manitoba, Canada &nbsp;•&nbsp; [LinkedIn](https://www.linkedin.com/in/rahatahsan/) &nbsp;•&nbsp; [Twitter/X](https://x.com/RahatAhsan20) &nbsp;•&nbsp; [Medium](https://medium.com/@s.rahatahsan)
@@ -16,7 +15,7 @@ How systems work under the hood, how they're built, how they scale, how they com
 
 ## What I'm Working On
 
-- 🏠 **Homelab** — designing and managing self-hosted infrastructure on a Raspberry Pi 5 cluster and QNAP NAS
+- 🏠 **Homelab** — designing and managing self-hosted infrastructure on a Raspberry Pi 5 with a full GitOps workflow using Flux
 - ⚙️ **Kubernetes** — building proficiency in core concepts including scheduling, networking, storage, and writing production-style manifests
 - 📦 **Containerization** — packaging and deploying applications with Docker for consistent, reproducible environments
 - 🖥️ **Linux systems** — maintaining a custom Arch Linux environment with Hyprland, portable dotfiles, and a reproducible dev workflow
@@ -25,41 +24,50 @@ How systems work under the hood, how they're built, how they scale, how they com
 
 ## 🏠 Homelab
 
-Self-hosted infrastructure designed for practical, hands-on systems experience.
+Self-hosted infrastructure designed for practical, hands-on systems experience. Everything is defined as code, version controlled, and applied declaratively — the Git repo is the single source of truth, Flux handles the rest.
 
 **Hardware**
-- 2× Raspberry Pi 5 (16GB)
-- QNAP TS-464 NAS
+- Raspberry Pi 5 (16GB) — primary cluster node
+- QNAP TS-464 NAS — network attached storage
 - Private overlay network via Tailscale
 
-*Full documentation → homelab repo (coming soon)*
+**Stack:** K3s · Flux · Helm · Kustomize · Traefik · Prometheus · Grafana · SOPS · Renovate · Cloudflare
+
+**Hosted Projects**
+- **Linkding** — self-hosted bookmark manager, exposed via Cloudflare Tunnel
+
+*Full documentation → [Homelab](https://github.com/AhsanRahat12/Homelab)*
 
 ---
 
 ## Tech Stack
 
-**Infrastructure & DevOps:** Docker · Kubernetes · Linux (Arch) · Git
+**Infrastructure & DevOps:** Kubernetes · K3s · Flux · Helm · Kustomize · Traefik · Docker · Linux (Arch) · Git
+
+**Observability:** Prometheus · Grafana
+
+**Security & Secrets:** SOPS · AGE · Cloudflare Tunnel · Tailscale
+
+**Automation:** Renovate · GitHub Actions
 
 **Languages:** Python · Bash
 
-**Tooling:** Hyprland · chezmoi · mise · DevPod · Obsidian
+**Tooling:** Hyprland · chezmoi · mise · DevPod · Obsidian · Vim
 
 ---
 
 ## Repositories
 
 ### 🚀 Projects
-
+- **[Linkding](https://github.com/AhsanRahat12/Homelab)** — Self-hosted bookmark manager running on Raspberry Pi 5, deployed via Kubernetes and exposed through Cloudflare Tunnel
 - **[Arch Linux Setup](https://github.com/AhsanRahat12/arch-linux-setup)** — Comprehensive installation guide covering manual partitioning, LVM, full-disk encryption, and a Hyprland desktop environment
 - **[Dockerized Python Apps](https://github.com/AhsanRahat12/Dockerized-Python-Projects)** — Python applications containerized with Docker for consistent, portable deployments across environments
 
 ### ⚙️ Dev Environment
-
 - **[dotfiles](https://github.com/AhsanRahat12/dotfiles)** — Managed with chezmoi. A single command bootstraps mise, global tooling, and all configurations on any machine
 - **[DevContainer](https://github.com/AhsanRahat12/DevContainer)** — Reproducible, project-scoped development environments using DevPod and mise, ensuring consistent tooling across contributors
 
 ### 📓 Learning & Documentation
-
 - **[devops-lab](https://github.com/AhsanRahat12/devops-lab/tree/main?tab=readme-ov-file)** — A structured learning repository containing Kubernetes manifest files, troubleshooting documentation, and notes from hands-on experimentation throughout my DevOps training
 - **[social-media-archive](https://github.com/AhsanRahat12/social-media-archive)** — Archive of technical writing published on LinkedIn and X covering Docker, Kubernetes, Linux, and career development in DevOps
 
