@@ -34,7 +34,7 @@ Self-hosted infrastructure designed for practical, hands-on systems experience. 
 **Stack:** K3s · Flux · Helm · Kustomize · Traefik · Prometheus · Grafana · SOPS · Renovate · Cloudflare
 
 **Hosted Projects**
-- **Linkding** — self-hosted bookmark manager, exposed via Cloudflare Tunnel
+- **[Linkding](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/linkding)** — self-hosted bookmark manager, exposed via Cloudflare Tunnel
 
 *Full documentation → [Homelab](https://github.com/AhsanRahat12/Homelab)*
 
