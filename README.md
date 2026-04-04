@@ -59,7 +59,7 @@ Self-hosted infrastructure designed for practical, hands-on systems experience. 
 ## Repositories
 
 ### 🚀 Projects
-- **[Linkding](https://github.com/AhsanRahat12/Homelab)** — Self-hosted bookmark manager running on Raspberry Pi 5, deployed via Kubernetes and exposed through Cloudflare Tunnel
+- **[Linkding](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/linkding)** — Self-hosted bookmark manager running on Raspberry Pi 5, deployed via Kubernetes and exposed through Cloudflare Tunnel
 - **[Arch Linux Setup](https://github.com/AhsanRahat12/arch-linux-setup)** — Comprehensive installation guide covering manual partitioning, LVM, full-disk encryption, and a Hyprland desktop environment
 - **[Dockerized Python Apps](https://github.com/AhsanRahat12/Dockerized-Python-Projects)** — Python applications containerized with Docker for consistent, portable deployments across environments
 
