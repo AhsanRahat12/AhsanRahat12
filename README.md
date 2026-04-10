@@ -6,7 +6,6 @@
 ---
 
 ## About Me
-
 I'm transitioning into DevOps from a data analytics background, with a focus on containerization and cloud infrastructure. I'm currently building hands-on experience through the **Kubecraft internship program**.
 
 How systems work under the hood, how they're built, how they scale, how they communicate, and why they break — that curiosity made me want to pursue infrastructure professionally. Kubernetes and cloud technology is where all of that comes together for me.
@@ -14,7 +13,6 @@ How systems work under the hood, how they're built, how they scale, how they com
 ---
 
 ## What I'm Working On
-
 - 🏠 **Homelab** — designing and managing self-hosted infrastructure on a Raspberry Pi 5 with a full GitOps workflow using Flux
 - ⚙️ **Kubernetes** — building proficiency in core concepts including scheduling, networking, storage, and writing production-style manifests
 - 📦 **Containerization** — packaging and deploying applications with Docker for consistent, reproducible environments
@@ -22,8 +20,7 @@ How systems work under the hood, how they're built, how they scale, how they com
 
 ---
 
-## 🏠 Homelab
-
+## 🏠 [Homelab](https://github.com/AhsanRahat12/Homelab)
 Self-hosted infrastructure designed for practical, hands-on systems experience. Everything is defined as code, version controlled, and applied declaratively — the Git repo is the single source of truth, Flux handles the rest.
 
 **Hardware**
@@ -35,13 +32,11 @@ Self-hosted infrastructure designed for practical, hands-on systems experience. 
 
 **Hosted Projects**
 - **[Linkding](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/linkding)** — self-hosted bookmark manager, exposed via Cloudflare Tunnel
-
-*Full documentation → [Homelab](https://github.com/AhsanRahat12/Homelab)*
+- **[Audiobookshelf](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/audiobookshelf)** — self-hosted audiobook and podcast server, exposed via Cloudflare Tunnel
 
 ---
 
 ## Tech Stack
-
 **Infrastructure & DevOps:** Kubernetes · K3s · Flux · Helm · Kustomize · Traefik · Docker · Linux (Arch) · Git
 
 **Observability:** Prometheus · Grafana
@@ -60,6 +55,7 @@ Self-hosted infrastructure designed for practical, hands-on systems experience. 
 
 ### 🚀 Projects
 - **[Linkding](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/linkding)** — Self-hosted bookmark manager running on Raspberry Pi 5, deployed via Kubernetes and exposed through Cloudflare Tunnel
+- **[Audiobookshelf](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/audiobookshelf)** — Self-hosted audiobook and podcast server running on Raspberry Pi 5, deployed via Kubernetes and exposed through Cloudflare Tunnel
 - **[Arch Linux Setup](https://github.com/AhsanRahat12/arch-linux-setup)** — Comprehensive installation guide covering manual partitioning, LVM, full-disk encryption, and a Hyprland desktop environment
 - **[Dockerized Python Apps](https://github.com/AhsanRahat12/Dockerized-Python-Projects)** — Python applications containerized with Docker for consistent, portable deployments across environments
 
