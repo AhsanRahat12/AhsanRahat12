@@ -42,12 +42,14 @@ Self-hosted infrastructure designed for practical, hands-on systems experience. 
 
 ## Tech Stack
 
-**Infrastructure & DevOps:** Kubernetes · K3s · Flux · Helm · Kustomize · Traefik · Docker · Linux (Arch) · Git
-**Observability:** Prometheus · Grafana
-**Security & Secrets:** SOPS · AGE · Cloudflare Tunnel · Tailscale
-**Automation:** Renovate · GitHub Actions
-**Languages:** Python · Bash
-**Tooling:** Hyprland · chezmoi · mise · DevPod · Obsidian · Vim
+| Category | Tools |
+|----------|-------|
+| Infrastructure & DevOps | Kubernetes · K3s · Flux · Helm · Kustomize · Traefik · Docker · Linux (Arch) · Git |
+| Observability | Prometheus · Grafana |
+| Security & Secrets | SOPS · AGE · Cloudflare Tunnel · Tailscale |
+| Automation | Renovate · GitHub Actions |
+| Languages | Python · Bash |
+| Tooling | Hyprland · chezmoi · mise · DevPod · Obsidian · Vim |
 
 ---
 
