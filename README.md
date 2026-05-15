@@ -17,7 +17,6 @@ How systems work under the hood, how they're built, how they scale, how they com
 
 - 🏠 **Homelab** — designing and managing self-hosted infrastructure on a Raspberry Pi 5 with a full GitOps workflow using Flux
 - ⚙️ **Kubernetes** — building proficiency in core concepts including scheduling, networking, storage, and writing production-style manifests
-- 📦 **Containerization** — packaging and deploying applications with Docker for consistent, reproducible environments
 - 🖥️ **Linux systems** — maintaining a custom Arch Linux environment with Hyprland, portable dotfiles, and a reproducible dev workflow
 
 ---
