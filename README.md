@@ -45,15 +45,15 @@ Storage is deliberately separated from compute. Persistent data lives on a QNAP 
 
 ## Hosted Projects
 
-### 🔖 [Linkding](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/linkding) — [links.rahatahsan.com](https://links.rahatahsan.com)
+### 🔖 [Linkding](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/linkding)
 
 Self-hosted bookmark manager. Storage went through three stages: SD card → static iSCSI PV pinned to one node → democratic-csi with no nodeSelector. The migration removed the single point of failure entirely. Failover tested, pod reschedules to either node, LUN follows automatically.
 
-### 📚 [Audiobookshelf](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/audiobookshelf) — [audiobooks.rahatahsan.com](https://audiobooks.rahatahsan.com)
+### 📚 [Audiobookshelf](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/audiobookshelf)
 
 Self-hosted audiobook and podcast server. Four volumes with a deliberate storage split: config and metadata on iSCSI (block storage, RWO, exclusive access), audiobooks and podcasts on NFS (network share, RWX, mounts on any node). Zero volumes on SD card in production. Failover tested across both nodes.
 
-### 📊 [kube-prometheus-stack](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/Kube-Prometheus-Stack) — [grs.rahatahsan.com](https://grs.rahatahsan.com) (LAN only)
+### 📊 [kube-prometheus-stack](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/Kube-Prometheus-Stack)
 
 Full observability stack. Prometheus, Grafana, and Alertmanager were originally writing to SD cards via emptyDir. 28 combined pod restarts wiped all metrics, dashboards, and silence rules before migration. All three components now run on dedicated iSCSI LUNs. Metrics survive restarts and redeployments. 30-day retention set explicitly to prevent unbounded TSDB growth.
 
