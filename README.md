@@ -53,7 +53,7 @@ Self-hosted bookmark manager. Storage went through three stages: SD card → sta
 
 Self-hosted audiobook and podcast server. Four volumes with a deliberate storage split: config and metadata on iSCSI (block storage, RWO, exclusive access), audiobooks and podcasts on NFS (network share, RWX, mounts on any node). Zero volumes on SD card in production. Failover tested across both nodes.
 
-### 🧭 [Homepage](https://https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/homepage)
+### 🧭 [Homepage](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/homepage)
 
 Cluster startpage that links every service in one place and pulls live node CPU, memory, and pod counts straight from the Kubernetes API via a dedicated read-only ClusterRole. The deliberate choice here was zero persistence: config lives entirely in Git as a ConfigMap, so there's no PV to drift out of sync with the repo and no second source of truth. Hardened with PSA baseline enforcement, non-root execution, and all Linux capabilities dropped.
 
