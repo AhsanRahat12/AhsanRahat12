@@ -67,7 +67,8 @@ Two-instance HA PostgreSQL cluster managed by the CloudNative-PG operator. Prima
 
 Continuous WAL archiving to Minio via the Barman Cloud plugin. Daily base backups with 30-day retention, preferring the standby to avoid load on the primary. Minio runs on the QNAP outside Kubernetes — if the cluster dies, the backup target stays alive. HA failover was validated under a real iSCSI session drop during deployment: the primary lost storage, the replica was promoted within seconds, no data loss.
 
-**[🔥 Incidents & Lessons](https://github.com/AhsanRahat12/Homelab#-incidents--lessons)** — real production failures, root causes, and fixes from running this cluster
+**[🔥 Incidents & Lessons](https://github.com/AhsanRahat12/Homelab#-incidents--lessons)** — real production failures, root causes, and fixes from running this cluster. Links to app specific incidents that were encountered and successfully fixed.
+
 ---
 
 ## Tech Stack
