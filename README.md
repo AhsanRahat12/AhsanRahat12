@@ -20,6 +20,9 @@ How systems work under the hood, how they scale, how they communicate, and why t
 - 📊 **Monitoring** — Prometheus, Grafana, and Alertmanager migrated off SD cards to durable iSCSI LUNs after 28 combined restarts wiped all history
 - ⚙️ **Kubernetes** — scheduling, networking, storage, security contexts, resource management, and production-style manifests
 - 🖥️ **Linux** — custom Arch Linux environment with Hyprland, portable dotfiles via chezmoi, and a reproducible dev workflow
+- **CKA (Certified Kubernetes Administrator)** — in progress
+- **AWS Solutions Architect Associate (SAA)** — in progress
+- **AKS project** — applying homelab patterns (GitOps, HA, CSI storage) to Azure Kubernetes Service to build cloud platform experience
 
 ---
 
@@ -64,6 +67,7 @@ Two-instance HA PostgreSQL cluster managed by the CloudNative-PG operator. Prima
 
 Continuous WAL archiving to Minio via the Barman Cloud plugin. Daily base backups with 30-day retention, preferring the standby to avoid load on the primary. Minio runs on the QNAP outside Kubernetes — if the cluster dies, the backup target stays alive. HA failover was validated under a real iSCSI session drop during deployment: the primary lost storage, the replica was promoted within seconds, no data loss.
 
+**[🔥 Incidents & Lessons](https://github.com/AhsanRahat12/Homelab#-incidents--lessons)** — real production failures, root causes, and fixes from running this cluster
 ---
 
 ## Tech Stack
