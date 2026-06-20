@@ -59,6 +59,9 @@ Self-hosted audiobook and podcast server. Four volumes with a deliberate storage
 ### 🧭 [Homepage](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/homepage)
 Cluster startpage that links every service in one place and pulls live node CPU, memory, and pod counts straight from the Kubernetes API via a dedicated read-only ClusterRole. The deliberate choice here was zero persistence: config lives entirely in Git as a ConfigMap, so there's no PV to drift out of sync with the repo and no second source of truth. Hardened with PSA baseline enforcement, non-root execution, and all Linux capabilities dropped.
 
+### 💰 Actual Budget(https://github.com/AhsanRahat12/Homelab/blob/main/pi-zoro/docs/actual-budget)
+Self-hosted personal finance app using envelope budgeting. Single pod, single iSCSI LUN, SQLite on block storage — no PostgreSQL dependency. Deployed with PSA restricted enforced from day one. The interesting problem: a fresh iSCSI LUN formats as root:root. Kubernetes fsGroup changes group ownership only — not user ownership — so a non-root container running as UID 1000 hits EACCES on startup trying to write to the volume root. Fixed with a one-time root initContainer after temporarily relaxing the namespace to PSA baseline, then locked back to restricted. The chown is permanent on the LUN's filesystem — no root access needed on subsequent restarts.
+
 ### 📊 [kube-prometheus-stack](https://github.com/AhsanRahat12/Homelab/tree/main/pi-zoro/docs/Kube-Prometheus-Stack)
 Full observability stack. Prometheus, Grafana, and Alertmanager were originally writing to SD cards via emptyDir. 28 combined pod restarts wiped all metrics, dashboards, and silence rules before migration. All three components now run on dedicated iSCSI LUNs. Metrics survive restarts and redeployments. 30-day retention set explicitly to prevent unbounded TSDB growth.
 
